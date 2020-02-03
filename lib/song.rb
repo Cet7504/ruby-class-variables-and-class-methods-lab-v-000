@@ -39,6 +39,7 @@ class Song
 
     def self.genres
       @@genres.uniq
+      binding.pry
     end
 
     def self.genre_count
@@ -52,5 +53,4 @@ class Song
       end
       genre_count
     end
-    binding.pry
 end
